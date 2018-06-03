@@ -286,6 +286,11 @@
       "js": ["plugin-api.js", "keysocket-youtube.js"]
     },
     {
+      "matches": ["*://*.youtube.com/embed/*"],
+      "all_frames": true,
+      "js": ["plugin-api.js", "keysocket-youtube.js"]
+    },
+    {
       "matches": ["*://zvooq.com/*"],
       "js": ["plugin-api.js", "keysocket-zvooq.js"]
     },
